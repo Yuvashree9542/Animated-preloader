@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animated-Preloader</title>
+</head>
+<body>
+  
+
+<div class="loading-spinner"><div class="load-circle">
+<div></div>
+</div></div>
+<style type="text/css">
+@keyframes ldio-x2uulkbinbj {
+  0% { transform: rotate(0deg) }
+  50% { transform: rotate(180deg) }
+  100% { transform: rotate(360deg) }
+}
+.load-circle div {
+  position: absolute;
+  animation: ldio-x2uulkbinbj 1s linear infinite;
+  width: 136px;
+  height: 136px;
+   top: 32px;
+  left:32px;
+  border-radius: 50%;
+  box-shadow: 0 4px 0 0 #0bd3f0;
+  transform-origin: 68px 70px;
+}
+.loading-spinner{
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  overflow: hidden;
+  background: none; 
+    margin: 200px 200px 200px 700px;
+}
+.load-circle {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0; 
+}
+.load-circled { box-sizing: content-box; }
+
+</style>
+
+
+</body>
+</html>
+
+
+
