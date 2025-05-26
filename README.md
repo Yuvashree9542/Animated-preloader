@@ -4,7 +4,7 @@
 
 This project showcases a minimal, elegant animated loading spinner using pure HTML and CSS. It's perfect for use as a preloader in web applications, landing pages, or any project that needs an engaging loading experience.
 
-## 🌟 Demo
+## 🌟 Live Demo : https://yuvashree9542.github.io/Animated-preloader/
 ![Image](https://github.com/user-attachments/assets/8f67c79f-28f0-4e88-ac2b-ec6cc9418734)
 
 ## 💻 Technologies Used
